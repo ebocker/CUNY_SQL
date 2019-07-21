@@ -1,14 +1,15 @@
-#1.Which destination in the flights database is the furthest distance away, 
-# based on information in the flights table. Show the SQL query(s) that 
-# support your conclusion. 
+### Assignment SQL Select and Aggregations
+### Emily Bocker
+
+###1. Which destination in the flights database is the furthest distance away, based on information in the flights table. Show the SQL query(s) that support your conclusion.
 
 ### ANSWER: IAH (Houston Intercontinental Airport)
 ### QUERY:
-SELECT dest, max(distance)
+ SELECT dest, max(distance)
 FROM flights
 
 
-#2. What are the different numbers of engines in the planes table? 
+# 2. What are the different numbers of engines in the planes table? 
 # For each number of engines, which aircraft have the most number of seats? 
 # Show the SQL statement(s) that support your result. 
 
